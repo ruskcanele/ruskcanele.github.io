@@ -26,7 +26,7 @@ export const MainLayout: React.VFC<Props> = ({
       </div>
       {lg || (
         <Portal>
-          <div className="z-50 fixed left-8 bottom-8">
+          <div className="z-50 fixed right-8 top-8">
             <Hamburger>{hamburgerMenu}</Hamburger>
           </div>
         </Portal>

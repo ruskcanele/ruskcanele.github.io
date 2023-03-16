@@ -21,6 +21,7 @@ export const Header = () => {
           <NavBar />
         </div>
 
+        {/*
         <div className="flex gap-4">
           <button
             type="button"
@@ -31,6 +32,8 @@ export const Header = () => {
             <FiSun />
           </button>
         </div>
+        */}
+
       </nav>
     </ContentLayout>
   );
