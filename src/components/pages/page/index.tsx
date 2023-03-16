@@ -1,12 +1,13 @@
 import { useRouter } from 'next/router';
+import { AiTwotoneTags } from 'react-icons/ai';
 import { RiChatNewLine } from 'react-icons/ri';
+import { Link } from '@/components/common/Link';
 import { MainLayout } from '@/components/features/app/Layout';
 import { Profile } from '@/components/features/app/Profile';
-import { Link } from '@/components/common/Link';
 import { Pagination } from '@/components/features/story/Pagination';
 import { Stories } from '@/components/features/story/Stories';
 import { PostType } from '@/types/post';
-import { AiTwotoneTags } from 'react-icons/ai';
+
 
 
 type Props = {
