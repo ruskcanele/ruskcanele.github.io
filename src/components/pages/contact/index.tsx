@@ -1,7 +1,8 @@
-import { MainLayout } from '@/components/features/app/Layout';
-import { Profile } from '@/components/features/app/Profile';
 import { BsChatDots } from 'react-icons/bs';
 import { Link } from '@/components/common/Link';
+import { MainLayout } from '@/components/features/app/Layout';
+import { Profile } from '@/components/features/app/Profile';
+
 
 
 export const Contact = () => {
