@@ -1,11 +1,9 @@
 import { ContentLayout } from '@/components/features/app/Layout';
 import { Image } from '@/components/common/Image';
-
-import { Portal } from '@radix-ui/react-portal';
-import { useBreakPoint } from '@/hooks/useBreakPoint';
-
-import { MainLayout } from '@/components/features/app/Layout';
 import { Profile } from '@/components/features/app/Profile';
+import { useBreakPoint } from '@/hooks/useBreakPoint';
+import { MainLayout } from '@/components/features/app/Layout';
+
 
 export const About = () => {
   const lg = useBreakPoint('lg');

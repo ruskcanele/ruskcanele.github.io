@@ -1,16 +1,8 @@
 import { MainLayout } from '@/components/features/app/Layout';
 import { Profile } from '@/components/features/app/Profile';
-import { Image } from '@/components/common/Image';
 import { BsChatDots } from 'react-icons/bs';
 import { Link } from '@/components/common/Link';
 
-
-type Props = {
-  main: React.ReactElement;
-  aside?: React.ReactNode;
-  hamburgerMenu?: React.ReactNode;
-  className?: string;
-};
 
 export const Contact = () => {
   return (

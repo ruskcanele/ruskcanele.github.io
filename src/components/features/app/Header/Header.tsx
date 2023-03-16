@@ -1,5 +1,4 @@
 import React from 'react';
-import { FiSun } from 'react-icons/fi';
 import { Link } from '@/components/common/Link';
 import { ContentLayout } from '@/components/features/app/Layout';
 import { useDarkMode } from '@/hooks/useDarkMode';

@@ -1,9 +1,10 @@
+import { Link } from '@/components/common/Link';
 import { MainLayout } from '@/components/features/app/Layout';
 import { Profile } from '@/components/features/app/Profile';
+import { Date } from '@/components/common/Date';
 import { Image } from '@/components/common/Image';
 import { BiMusic } from 'react-icons/bi';
-import { Date } from '@/components/common/Date';
-import { Link } from '@/components/common/Link';
+
 
 
 export const Discography = () => {
@@ -21,6 +22,7 @@ export const Discography = () => {
                 <Image
                   src={"/assets/dorobouneko.jpg"}
                   className="xs:max-w-xs xs:max-h-xs object-cover cursor-pointer"
+                  alt={``}
                 />
               </Link>
               <br />
@@ -41,6 +43,7 @@ export const Discography = () => {
                 <Image
                   src={"/assets/sajounoroukaku.jpg"}
                   className="xs:max-w-xs xs:max-h-xs object-cover cursor-pointer"
+                  alt={``}
                 />
               </Link>
               <br />
@@ -62,6 +65,7 @@ export const Discography = () => {
                 <Image
                   src={"/assets/jacket1st.jpg"}
                   className="xs:max-w-xs xs:max-h-xs object-cover cursor-pointer"
+                  alt={``}
                 />
               </Link>
               <br />
@@ -85,6 +89,7 @@ export const Discography = () => {
                 <Image
                   src={"/assets/funade.jpg"}
                   className="xs:max-w-xs xs:max-h-xs object-cover cursor-pointer"
+                  alt={``}
                 />
               </Link>
               <br />
@@ -107,6 +112,7 @@ export const Discography = () => {
                 <Image
                   src={"/assets/ranchikisawagi_ac.jpg"}
                   className="xs:max-w-xs xs:max-h-xs object-cover cursor-pointer"
+                  alt={``}
                 />
               </Link>
               <br />
@@ -128,6 +134,7 @@ export const Discography = () => {
                 <Image
                   src={"/assets/ranchikisawagi.jpg"}
                   className="xs:max-w-xs xs:max-h-xs object-cover cursor-pointer"
+                  alt={``}
                 />
               </Link>
               <br />
