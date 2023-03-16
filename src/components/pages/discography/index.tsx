@@ -6,14 +6,6 @@ import { Date } from '@/components/common/Date';
 import { Link } from '@/components/common/Link';
 
 
-type Props = {
-  main: React.ReactElement;
-  aside?: React.ReactNode;
-  hamburgerMenu?: React.ReactNode;
-  className?: string;
-};
-
-
 export const Discography = () => {
   return (
     <MainLayout

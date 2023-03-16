@@ -12,7 +12,7 @@ type Props = {
   className?: string;
 };
 
-export const Contact: React.VFC<Props> = () => {
+export const Contact = () => {
   return (
     <MainLayout
       main={
