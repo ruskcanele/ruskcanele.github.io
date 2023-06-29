@@ -17,6 +17,59 @@ export const Discography = () => {
           </h2>
           <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-0'>
 
+            {/* あらくれサーカス */}
+            <div className="top vstack lg:col-span-1 p-5">
+              <Link href="https://www.youtube.com/watch?v=FIJciX-FYZc" passHref>
+                <Image
+                  src={"/assets/arakurecircus.png"}
+                  className="xs:max-w-xs xs:max-h-xs object-cover cursor-pointer"
+                  alt={``}
+                />
+              </Link>
+              <br />
+              <Date date={"2023/05/25"} />
+              <h3 className="text-primary-1 text-md font-medium">{"あらくれサーカス"}</h3>
+              <p className="text-neutral-700 dark:text-neutral-300 font-normal text-xs">
+                {'Lyrics & Vocal - Mari'}<br />
+                {'Lyrics & Rap & DJ - Higaki'}<br />
+                {'Music & Mix & Piano - Kaj'}<br />
+                {'Trumpet - North'}<br />
+                {'Tenor Sax - Taru'}<br />
+                {'Baritone Sax - Koruri'}<br />
+                {'Clarinet - Noa'}<br />
+                {'Launch Pad - Miya'}<br />
+                <br />
+                {'Producer - Higaki'}<br />
+                {'Editor - Miya'}<br />
+                <br />
+                {'−Special Thanks−'}<br />
+                {'Dancer - 歌音'}<br />
+                {'Director & Photographer - 玲珑 LINLON'}<br />
+                {'Assistant - Arukion, Aimi, ゆーじん, Yukiko'}<br />
+                {'Location - PAVILION COURT'}<br />
+              </p>
+            </div>
+
+            {/* 1st Single あらくれサーカス */}
+            <div className="top vstack lg:col-span-1 p-5">
+              <Link href="https://www.youtube.com/watch?v=3vodifGSr4c" passHref>
+                <Image
+                  src={"/assets/1stsingle_arakurecircus.jpg"}
+                  className="xs:max-w-xs xs:max-h-xs object-cover cursor-pointer"
+                  alt={``}
+                />
+              </Link>
+              <br />
+              <Date date={"2023/04/30"} />
+              <h3 className="text-primary-1 text-md font-medium">{"1st Single 『あらくれサーカス』"}</h3>
+              <p className="text-neutral-700 dark:text-neutral-300 font-normal text-xs">
+                {'−収録曲−'}<br />
+                {'1. あらくれサーカス'}<br />
+                {'2. 幽霊退治'}<br />
+              </p>
+            </div>
+
+            {/* 泥棒猫 */}
             <div className="top vstack lg:col-span-1 p-5">
               <Link href="https://www.youtube.com/watch?v=tR7Rus3jt24" passHref>
                 <Image
@@ -38,6 +91,7 @@ export const Discography = () => {
               </p>
             </div>
 
+            {/* 砂上の楼閣 */}
             <div className="top vstack lg:col-span-1 p-5">
               <Link href="https://www.youtube.com/watch?v=SQ0vlhrZOYI" passHref>
                 <Image
@@ -60,6 +114,7 @@ export const Discography = () => {
               </p>
             </div>
 
+            {/* 宴 */}
             <div className="top vstack lg:col-span-1 p-5">
               <Link href="https://ruskcanele.booth.pm/" passHref>
                 <Image
@@ -84,6 +139,7 @@ export const Discography = () => {
               </p>
             </div>
 
+            {/* 船出 */}
             <div className="top vstack lg:col-span-1 p-5">
               <Link href="https://www.youtube.com/watch?v=lN5D3gj6knk" passHref>
                 <Image
@@ -107,6 +163,7 @@ export const Discography = () => {
               </p>
             </div>
 
+            {/* 乱痴気騒ぎ(アコースティックver.) */}
             <div className="top vstack lg:col-span-1 p-5">
               <Link href="https://www.youtube.com/watch?v=pHmxOMCrxgU" passHref>
                 <Image
@@ -129,6 +186,7 @@ export const Discography = () => {
               </p>
             </div>
 
+            {/* 乱痴気騒ぎ */}
             <div className="top vstack lg:col-span-1 p-5">
               <Link href="https://www.youtube.com/watch?v=Duam9iddgxM" passHref>
                 <Image

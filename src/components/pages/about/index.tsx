@@ -42,7 +42,7 @@ export const About = () => {
           <a className="w-full h-full vstack md:flex-row focus:outline-2 ">
             <div className="center w-full md:w-1/3 h-1/3 md:h-full bg-transparent">
               <Image
-                src={"/assets/jacket1st.jpg"}
+                src={"/assets/chikuonki.png"}
                 alt={`Cover Image for profile`}
                 className="w-full max-w-xs h-full object-cover"
               />
@@ -58,24 +58,28 @@ export const About = () => {
                 <br/>
               </p>
 
-              <h1 className="text-primary-1 text-xl font-medium">{"Member"}</h1>
+              <h1 className="text-primary-1 text-xl font-medium">{"メンバー"}</h1>
               <p className="text-neutral-700 dark:text-neutral-300 font-normal text-md">
-                {"Mari (Vocal)"}<br/>
-                {"Aimi (Vocal)"}<br/>
+                {"Rika (Vocal)"}<br/>
                 {"North (Trumpet)"}<br/>
-                {"South (Alto Saxophone)"}<br/>
+                {"Kawamina (Trombone)"}<br/>
                 {"Taru (Tenor Saxophone)"}<br/>
-                {"Koruri (Baritone Saxophone)"}<br/>
                 {"Noa (Clarinet)"}<br/>
+                {"Kinoko (Bass)"}<br/>
                 {"Miya (Drums)"}<br/>
-                {"Oleo (Synthesizer)"}<br/>
                 {"Kaj (Synthesizer)"}<br/>
                 {"Higaki (DJ & Rap)"}<br/>
               </p>
-              <h1 className="text-primary-1 text-xl font-medium">{"Ex-Member"}</h1>
+              <h1 className="text-primary-1 text-xl font-medium">{"活動休止中"}</h1>
               <p className="text-neutral-700 dark:text-neutral-300 font-normal text-md">
-                {"Horse (Trombone) : ~ 2023年2月末"}<br/>
-                <br/>
+                {"South (Alto Saxophone)"}<br/>
+                {"Oleo (Synthesizer)"}<br/>
+              </p>
+              <h1 className="text-primary-1 text-xl font-medium">{"元メンバー"}</h1>
+              <p className="text-neutral-700 dark:text-neutral-300 font-normal text-md">
+                {"Koruri (Baritone Saxophone) : '22/08 ~ '23/05"}<br/>
+                {"Mari (Vocal) :初期 ~ '23/04"}<br/>
+                {"Horse (Trombone) :初期 ~ '23/02"}<br/>
               </p>
 
             </div>

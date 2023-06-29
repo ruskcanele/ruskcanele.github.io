@@ -3,12 +3,11 @@
 @tailwind utilities;
 @import url('./post.css');
 @import url('./toc.css');
-@import url(http://fonts.googleapis.com/css?family=Zen+Antique);
 
 @layer base {
   body {
     background-color: var(--colors-loContrast);
-    font-family: 'Zen Antique', serif;
+    font-family: serif;
   }
 }
 
