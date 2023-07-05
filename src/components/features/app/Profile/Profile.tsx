@@ -8,7 +8,7 @@ export const Profile = () => (
       <Image
         className="object-cover w-28 h-28 rounded-full"
         alt="avatar"
-        src="/assets/icon1.jpg"
+        src="/assets/chikuonki_icon.png"
       />
       <h1 className="text-2xl font-semibold text-primary-1">Yummy Rusk & Canelé</h1>
     </div>

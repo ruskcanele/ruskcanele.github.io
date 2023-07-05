@@ -17,6 +17,29 @@ export const Discography = () => {
           </h2>
           <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-0'>
 
+            {/* お菓子工房 */}
+            <div className="top vstack lg:col-span-1 p-5">
+              <Link href="https://www.youtube.com/watch?v=WF8QVB_TJ84" passHref>
+                <Image
+                  src={"/assets/okashikobo.png"}
+                  className="xs:max-w-xs xs:max-h-xs object-cover cursor-pointer"
+                  alt={``}
+                />
+              </Link>
+              <br />
+              <Date date={"2023/07/04"} />
+              <h3 className="text-primary-1 text-md font-medium">{"お菓子工房"}</h3>
+              <p className="text-neutral-700 dark:text-neutral-300 font-normal text-xs">
+                {'Lyrics & Vocal - Rika'}<br />
+                {'Lyrics & Rap - Higaki'}<br />
+                {'Music & Mix - Kaj'}<br />
+                {'Music Video - Miya'}<br />
+                <br />
+                {'−Special Thanks−'}<br />
+                {'Illustration - komammm'}<br />
+              </p>
+            </div>
+
             {/* あらくれサーカス */}
             <div className="top vstack lg:col-span-1 p-5">
               <Link href="https://www.youtube.com/watch?v=FIJciX-FYZc" passHref>

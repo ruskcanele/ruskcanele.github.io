@@ -1,5 +1,5 @@
 ---
-title: '【LIVE情報】エレスイフェス 2023.3.28 TUE @渋谷WWW X'
+title: '【LIVE情報】エレスイフェス 2023.3.28 TUE at 渋谷WWW X'
 excerpt: '国内のエレクトロスウィングアーティストが集結する「Electro Swing Fes. (エレスイフェス)」の開催が決定！スペシャルゲストに FAKE TYPE. を迎えた最強イベント！その他豪華ゲストも…！？お見逃しなく！'
 coverImage: '/assets/eleswifes.jpg'
 date: '2023-03-15'

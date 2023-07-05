@@ -17,7 +17,7 @@ export const Home: React.VFC<Props> = ({ posts }) => {
         <div className="vstack gap-12 p-8 bg-primary-1">
           <div className="iframeWrap">
           <iframe
-            src={`https://www.youtube.com/embed/FIJciX-FYZc?list=PL2IFG7psWkzUh0JOJIimPV_65MWjELy2h`}
+            src={`https://www.youtube.com/embed/WF8QVB_TJ84?list=PL2IFG7psWkzUh0JOJIimPV_65MWjELy2h`}
             title="Yummy Rusk & Canelé Originals"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

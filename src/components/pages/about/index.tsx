@@ -78,8 +78,8 @@ export const About = () => {
               <h1 className="text-primary-1 text-xl font-medium">{"元メンバー"}</h1>
               <p className="text-neutral-700 dark:text-neutral-300 font-normal text-md">
                 {"Koruri (Baritone Saxophone) : '22/08 ~ '23/05"}<br/>
-                {"Mari (Vocal) :初期 ~ '23/04"}<br/>
-                {"Horse (Trombone) :初期 ~ '23/02"}<br/>
+                {"Mari (Vocal) :結成 ~ '23/04"}<br/>
+                {"Horse (Trombone) :結成 ~ '23/02"}<br/>
               </p>
 
             </div>

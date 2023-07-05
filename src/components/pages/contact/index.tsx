@@ -17,7 +17,7 @@ export const Contact = () => {
           <p className="text-neutral-700 dark:text-neutral-300 font-normal text-md">
           {'お問い合わせ: '} <p className="text-accent-1 inline">
             <Link href="https://www.instagram.com/ruskcanele" passHref>
-              {'インスタグラムの DM '}
+              {'Instagram の DM '}
             </Link>
           </p>
             または Gmail (ID: ruskcanele) まで
